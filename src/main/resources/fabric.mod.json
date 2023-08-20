@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-165034-revert",
+  "version": "${version}",
+  "name": "MC-165034 Revert",
+  "description": "Reverts MC-165034 fix (ex. falling blocks not breaking on boats)",
+  "authors": [
+    "tildejustin"
+  ],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/MC-165034-revert",
+		"sources": "https://github.com/tildejustin/MC-165034-revert",
+		"issues": "https://github.com/tildejustin/MC-165034-revert/issues"
+	},
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "MC-165034-revert.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.15-alpha.16.46.a"
+  }
+}

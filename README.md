@@ -1,0 +1,3 @@
+# MC-165034 Revert
+
+A little companion mod to [tildejustin/zero-tick-crops](https://github.com/tildejustin/zero-tick-crops) that reverts the sand landing on boats behavior to bring back simple zero tick farms. No credit to me for this implementation, this is taken directly from KingContaria's wonderful [1.14.4 Emulator](https://github.com/KingContaria/1.14.4-Emulator/blob/master/src/main/java/me/contaria/emulator114/mixin/entity/FallingBlockEntityMixin).
